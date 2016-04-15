@@ -1,0 +1,287 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+nav {
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	padding-bottom: 0;
+	text-decoration: none;
+	height: 40px;
+	margin:0;
+}
+
+nav a {
+	padding: 6px 10px 6px 40px;
+	text-decoration: none;
+	color: white;
+}
+
+figure {
+   display: block;
+   width: 20%;
+   padding: .5em;
+   margin: .5em;
+   margin-top: 10px;
+   background-color: white;
+   border-color: #FFE1FF ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+figcaption {
+ display: block;
+ align: bottom;
+ margin-top: 10px;
+}
+.sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav li a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+}
+
+.tagline {
+	text-align: center;
+	background-color: #F5F5F5;
+	height: 30px;
+	padding-top: 15px;
+}
+
+h1 {
+	background: white;
+	text-align: center;
+	padding: 28px;
+	margin-bottom: 0px;
+	margin-top: 0;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+	font-weight: 300;
+	font-family: "futura-pt";
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-style: normal;
+	line-height: 1em;
+}
+
+h2 {
+	margin-bottom:-12px;
+
+}
+h2 span {
+	color:black;
+	font:bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: white;
+	padding:10px;
+	display: inline-block;
+	margin:0;
+	margin-top:25px
+	
+}
+
+.banner {
+	width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+     display: inline-block;
+    box-sizing: border-box;
+  	padding-right: 0px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: -10px;
+}
+
+.banner img {
+	height:400px;
+	width:100%;
+	text-align: center;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: sans-serif;
+	margin-top:-20px;
+}
+
+.banner h2 span {
+	display: inline-block;
+}
+
+.banner p {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.img1 {
+	display: inline-block;
+	float:left;
+}
+
+.img2 {
+	display: inline-block;
+	float:left;
+}
+
+.img3 {
+	display: inline-block;
+	float:left;
+}
+
+.img4 {
+	display: inline-block;
+	float:left;
+}
+
+section {
+   height: 10vh;
+   background: gray;
+   display: flex;
+   justify-content: space-around;
+}
+
+/*article {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   flex: 0 0 20%;
+   border: 2px solid green;
+   //text-align: center;
+   height: 6em;
+}*/
+
+/*.shopping-item {
+	
+
+}
+
+.shopping-item--img {
+	height:5em;
+	background-image: url('../images/img1.jpg');
+	background-size: cover;
+}
+
+.shopping-item--description {
+
+}*/
+
+.justinimg {
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 0px;
+	width:100%;
+	height: 300px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.section2 {
+	box-sizing: border-box;
+	width:100%;
+	padding: 0px 34px;		
+	margin-top: -70px;
+    margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	text-align: center;
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.clear{
+	visibility: hidden;
+}
+
+.salesimg {
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 0px;
+	width:100%;
+	height: 400px;
+	box-sizing: border-box;
+	text-align: center;
+	flex
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height:0;
+}
+/*
+footer {
+	margin:0 auto;
+	max-width: 100%;
+	width: 870px;
+	padding:0;
+	border:0;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	line-height: 1.7;
+	color:white;
+	font:sans-serif;
+}*/
+
+
+footer {
+  background-color: black;
+  color: ##aaa;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  font:sans-serif;
+  list-style-type: none;
+}
+
+footer #footheader {
+	color: #aaa;
+	list-style-type: none;
+}
+
+footer.chi_container {
+	text-align: left;
+	text-decoration: none;
+	color:white;
+	list-style-type: none;
+}
+
+.footer_care li {
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+.footer_care li a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
