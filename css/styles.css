@@ -24,16 +24,12 @@ figure {
     display: block;
     margin-top: 10px;
     margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
     border-color: #FFE1FF;
     align-items: center;
-
- /*   display: flex;*/
-
-   /*	flex-direction: column;*/
-   	/*align-items: center;*/
-
+    display:flex;
+    justify-content: space-around;
 }
 
 /*figure {
